@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDv73qvA7UQw9MhPmEn_JvWSWrl85DoigE",
+    authDomain: "authentification-js-dbab1.firebaseapp.com",
+    databaseURL: "https://authentification-js-dbab1.firebaseio.com",
+    projectId: "authentification-js-dbab1",
+    storageBucket: "authentification-js-dbab1.appspot.com",
+    messagingSenderId: "802775060517",
+    appId: "1:802775060517:web:c7b0d61e51f9f1c484efcc"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  const auth = firebase.auth()
+  const db = firebase.firestore()
+
+  console.log(auth);
+</script>
+<script src="app.js"></script>
+</body>
+</html>
